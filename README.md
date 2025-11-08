@@ -40,7 +40,7 @@ Ada dua skenario tergantung di mana menjalankan training:
 
 - Training di HOST (local):
   - Pastikan `config/config.yaml` berisi `mlflow.tracking_uri: "http://localhost:5000"`.
-  - Jalankan script training Anda (contoh):
+  - Jalankan script training:
     - `python -c "from src.models.trainer import train_all; train_all()"`
   - Buka `http://localhost:5000/` dan pilih eksperimen `house-price` untuk melihat run dan artifacts.
 
