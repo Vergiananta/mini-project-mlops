@@ -1,0 +1,7 @@
+{
+  "timestamp": "2025-11-08T11:13:37.403632Z",
+  "detail": "Model tidak dikenal: test. Pilih salah satu dari ['linear_regression', 'random_forest', 'xgboost']",
+  "query_params": {
+    "model": "test"
+  }
+}

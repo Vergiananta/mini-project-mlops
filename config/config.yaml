@@ -1,0 +1,13 @@
+log_level: INFO
+mlflow:
+  tracking_uri: "http://mlflow:5000"
+  experiment_name: "house-price"
+data:
+  train_path: "data/train.csv"
+  test_path: "data/test.csv"
+  target_column: "SalePrice"
+model:
+  type: "random_forest"
+  params:
+    n_estimators: 200
+    random_state: 42
